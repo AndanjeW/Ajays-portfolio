@@ -1,10 +1,27 @@
 
+.hero{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
 
 h1{
-    font-family: 'Nunito', sans-serif;
     font-weight: bold;
+    font-size: 72px;
 }
-p{
-    font-family: 'Anton', sans-serif;
-    font-weight: regular;
+.hero p{
+    font-size: 24px;
 }
+/* @media (max-width: 576px) {
+    .hero{
+        padding: 5px;
+    }
+    h1{
+        font-size: 34px;
+        padding: 0;
+    }
+    .hero p{
+       font-size: 12px; 
+    }
+  } */
