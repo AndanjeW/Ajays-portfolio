@@ -2,7 +2,7 @@
 .hero{
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    padding-top: 50px;
+    padding: 60px 30px;
     color: white;
 }
 
@@ -13,18 +13,21 @@ h1{
 .hero p{
     font-size: 24px;
 }
-@media (max-width: 900px) {
-   h1{
-    font-size: 20px;
-
-
-   }
-   .hero{
-   padding: 0;
-
-   }
-.hero p{
-    font-size: 13px;
-    
+.intro{
+    min-height: 5vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-  }
+.recipes{
+    padding-top: 100px;
+   
+
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 10px;
+    text-transform: capitalize;
+}
