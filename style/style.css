@@ -12,6 +12,7 @@ h1{
 }
 .hero p{
     font-size: 24px;
+    font-weight: lighter;
 }
 .intro{
     min-height: 5vh;
@@ -29,5 +30,8 @@ p{
     font-weight: bold;
     font-size: 28px;
     padding: 10px;
+   
+}
+p::first-letter{
     text-transform: capitalize;
 }
