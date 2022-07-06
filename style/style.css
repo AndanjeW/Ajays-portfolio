@@ -16,10 +16,7 @@ h1{
     font-weight: bold;
     font-size: 72px;
 }
-h2{
-    font-size: 62px;
-    padding-top: 30px;
-}
+
 h3{
     font-size: 36px;
     font-weight: bold;
@@ -35,9 +32,7 @@ p{
     padding: 10px;
    
 }
-p::first-letter{
-    text-transform: capitalize;
-}
+
 .hero p{
     font-size: 24px;
     font-weight: lighter;
@@ -79,6 +74,9 @@ p::first-letter{
 .about-section-recipes p{
     font-size: 16px;
 }
+.icon{
+    padding-right: 10px;
+}
 
 .flex-container {
     display: flex;
@@ -86,6 +84,13 @@ p::first-letter{
     align-content: center;
     
   }
-  @media screen (max-width:600px) {
+  @media screen and (max-width:900px) {
     
+    .about-me-content{
+        margin-top: 0;
+    }
+    .about-section h2 {
+        font-size: 48px;
+        padding-top: 10px;
+    }
   }
