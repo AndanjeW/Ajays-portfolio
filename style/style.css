@@ -1,9 +1,11 @@
 :root{
     --default-font: 'Nunito', sans-serif;
+    
 }
 body{
     color: #272142;
     font-family: var(--default-font);
+    font-size: 24px;
 }
 .hero{
 
@@ -19,24 +21,51 @@ h1{
 
 h3{
     font-size: 36px;
-    font-weight: bold;
+    font-weight: bold; 
+    padding: 30px 30px
 }
 h4{
-    font-size: 24px;
+   
     font-weight: bold;
+    padding-top: 40px;
 }
+h5{
+    font-weight: bold;
+    padding: 10px 20px;
+}
+h5 {border:none;}
+h5:after {
+  height: 1px;
+  display: block;
+  content: " ";
+  background: repeating-linear-gradient(to right, rgba(0,0,0,0.5) 0,
+    rgba(0,0,0,0.5) 1px, rgba(255,255,255,0) 1px,
+    rgba(255,255,255,0) 2px);
+}
+
+.ingredients {border:none;
+padding:5px}
+.ingredients:after {
+  height: 1px;
+  display: block;
+  content: " ";
+  background: repeating-linear-gradient(to right, rgba(0,0,0,0.5) 0,
+    rgba(0,0,0,0.5) 1px, rgba(255,255,255,0) 1px,
+    rgba(255,255,255,0) 2px);
+}
+
 p{
 
     font-weight: bold;
     font-size: 28px;
-    padding: 10px;
+    
    
 }
 
 .hero p{
-    font-size: 24px;
     font-weight: lighter;
 }
+
 .intro{
     min-height: 5vh;
     background-position: center;
@@ -44,9 +73,18 @@ p{
     background-repeat: no-repeat;
 }
 .recipe{
-    padding: 100px 60px;
-   
+    padding: 70px 60px;
+   width: 900px
 
+}
+.recipe ul{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+}
+.method{
+    color: #F65282;
+    font-weight: bold;
 }
 
 .content-section h1{
