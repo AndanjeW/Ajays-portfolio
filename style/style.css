@@ -43,8 +43,8 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.recipes{
-    padding-top: 100px;
+.recipe{
+    padding: 100px 60px;
    
 
 }
@@ -62,9 +62,10 @@ p{
 .content{
     padding: 100px 60px 30px;}
 
-.potrait{
+.img{
     border-radius: 12px;
 }
+
 .about-me{
     padding: 40px;
 }
