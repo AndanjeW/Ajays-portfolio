@@ -104,10 +104,11 @@ padding:10px}
     
 }
 .content{
-    padding: 100px 60px 30px;}
+    padding: 100px 80px 10px;}
 
-.img{
+.image{
     border-radius: 12px;
+
 }
 
 .about-me{
@@ -130,6 +131,13 @@ padding:10px}
     justify-content: space-between;
     align-content: center;
     
+  }
+  .address{
+    padding-left: 10px;
+  }
+  .contact-me{
+    color: #662EED;
+    font-size: 18px;
   }
   @media screen and (max-width:900px) {
     
