@@ -38,22 +38,11 @@ h5:after {
   height: 1px;
   display: block;
   content: " ";
-  background: repeating-linear-gradient(to right, rgba(0,0,0,0.5) 0,
-    rgba(0,0,0,0.5) 1px, rgba(255,255,255,0) 1px,
-    rgba(255,255,255,0) 2px);
+  background: repeating-linear-gradient(to right, rgb(103, 213, 210) 0,
+  rgba(0,0,0,0.5) 1px, rgba(103, 213, 210, 1)
+  1px,
+  rgba(255,255,255,0) 2px);
 }
-
-.ingredients {border:none;
-padding:5px}
-.ingredients:after {
-  height: 1px;
-  display: block;
-  content: " ";
-  background: repeating-linear-gradient(to right, rgba(0,0,0,0.5) 0,
-    rgba(0,0,0,0.5) 1px, rgba(255,255,255,0) 1px,
-    rgba(255,255,255,0) 2px);
-}
-
 p{
 
     font-weight: bold;
@@ -61,6 +50,22 @@ p{
     
    
 }
+ul{
+    padding: 20px;
+}
+.ingredients {border:none;
+padding:10px}
+.ingredients:after {
+  height: 1px;
+  display: block;
+  content: " ";
+  background: repeating-linear-gradient(to right, rgb(103, 213, 210) 0,
+    rgba(0,0,0,0.5) 1px, rgba(103, 213, 210, 1)
+    1px,
+    rgba(255,255,255,0) 2px);
+}
+
+
 
 .hero p{
     font-weight: lighter;
