@@ -139,6 +139,26 @@ padding:10px}
     color: #662EED;
     font-size: 18px;
   }
+  nav{
+    padding: 20px 0;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+
+}
+nav a{
+    text-decoration: none;
+    color: var(--secondary-colour);
+}
+nav a:hover,
+
+nav li.active a{
+    color: var(--primary-colour);
+    transition: all 100ms ease-in-out;
+}
   @media screen and (max-width:900px) {
     
     .about-me-content{
