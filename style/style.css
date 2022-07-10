@@ -1,17 +1,21 @@
 :root{
     --default-font: 'Nunito', sans-serif;
-    
+    --default-color: #272142;
 }
 body{
-    color: #272142;
+    color: var(--default-color);
     font-family: var(--default-font);
     font-size: 24px;
 }
 .hero{
 
     text-align: center;
-    padding: 60px 30px;
+    padding: 50px 40px;
+    margin: 10px;
     color: white;
+    background-image: url(/images/hero.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -44,7 +48,7 @@ h5:after {
   1px,
   rgba(255,255,255,0) 2px);
 }
-p{
+h2{
 
     font-weight: bold;
     font-size: 28px;
@@ -52,7 +56,6 @@ p{
    
 }
 ul{
-    padding: 20px;
 }
 .ingredients {border:none;
 padding:10px}
@@ -65,7 +68,6 @@ padding:10px}
     1px,
     rgba(255,255,255,0) 2px);
 }
-
 
 
 .hero p{
@@ -141,6 +143,7 @@ padding:10px}
   }
   nav{
     padding: 20px 0;
+    font-size: 20px;
 }
 
 nav li{
@@ -151,12 +154,12 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: var(--secondary-colour);
+    color: var(--default-color);
 }
 nav a:hover,
 
 nav li.active a{
-    color: var(--primary-colour);
+    color: #662EED;
     transition: all 100ms ease-in-out;
 }
   @media screen and (max-width:900px) {
@@ -168,4 +171,16 @@ nav li.active a{
         font-size: 48px;
         padding-top: 10px;
     }
+    .hero{
+
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        background-image: url(/images/hero.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+    .nav-bar{
+font-size: 16px;
   }
