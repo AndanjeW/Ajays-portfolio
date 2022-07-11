@@ -57,8 +57,10 @@ h2{
    
 }
 
-.ingredients {border:none;
-padding:10px}
+.ingredients {
+    border:none;
+    padding:10px
+}
 .ingredients:after {
   height: 1px;
   display: block;
@@ -85,10 +87,13 @@ padding:10px}
    width: 900px
 
 }
-.recipe ul{
-    text-decoration: none;
+.recipes ul{
     list-style-type: none;
     font-size: 18px;
+    background: red;
+}
+.recipe li{
+    text-decoration: none;
 }
 .method{
     color: #F65282;
