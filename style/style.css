@@ -17,6 +17,7 @@ body{
     background-image: url(/images/hero.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-bottom: 80px;
 }
 
 h1{
@@ -84,8 +85,7 @@ h2{
 }
 .recipe{
     padding: 70px 60px;
-   width: 900px
-
+    width: 900px;
 }
  ul{
     list-style-type: none;
